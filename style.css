@@ -13,6 +13,7 @@
     padding-left: 10px;
 }
 
+
 .hr {
     width: 80px;
     background-color: #ffffff;
@@ -324,4 +325,15 @@ body{
     font-size: 14px;
     font-family: "google-sans";
     margin-top: 10px;
+}
+
+@media screen and (max-width:420px) {
+    .work-done-icon {
+        font-size: 55px;
+        padding-left: 10px;
+    }
+    .prof {
+        width: 250px;
+        height: 250px;
+    }
 }
