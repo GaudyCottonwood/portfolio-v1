@@ -1,50 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
-.footer-background {
-    background-color: #0d2436;
-}
-
-.footer-pfp {
-    height: 60px;
-    width: 60px;
-    border-radius: 40px;
-}
-
-.footer-text {
-    color: #9aa5b1;
-    font-size: 14px;
-    font-family: "Roboto";
-    margin-top: 3px;
-}
-
-.footer-text2 {
-    color: #9aa5b1;
-    font-size: 14px;
-    font-family: "Roboto";
-    margin-top: 10px;
-}
-
-.footer-sub-heading {
-    color: #cced00;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "Roboto";
-}
-
-.footer-icon {
-    font-size: 25px;
-    color: #5a7184;
-}
-
-.footer-end {
-    background-color: #001c32;
-}
 
 
 .work-done-section {
-    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png');
-    background-size: cover;
+    background-color: #FF2800;
     color: white;
 }
 
@@ -152,12 +112,6 @@
     font-size: 33px;
 }
 
-.icon {
-    height: 85px;
-    width: 85px;
-    padding-bottom: 5px;
-}
-
 .sub-head {
     color: #880044;
     font-size: 26px;
@@ -182,6 +136,9 @@
     font-size: 20px;
 }
 
+body{
+    margin: 0px;
+}
 
 *{
     font-family: 'google-sans';
@@ -222,7 +179,7 @@
 .red-inverse-header {
     font-family: 'nohemi';
     background-color: #FF2800;
-    color: #fbfbfb;
+    color: #000000;
     width: 200px;
     padding: 2px;
     text-align: center;
@@ -272,13 +229,29 @@
     background-color: #fbfbfb;
 }
 
+.icon-skill {
+    height: 85px;
+    width: 85px;
+    padding-bottom: 5px;
+}
+
 .icon-back-skill {
     background-color: #FF2800;
     height: 180px;
     width: 205px;
-    border-radius: 15px;
+    border-radius: 2px;
     padding-top: 10px;
     margin: 15px;
+}
+
+.icon-back-skill-boot {
+    background-color: #FF2800;
+    height: 180px;
+    width: 205px;
+    border-radius: 2px;
+    padding-top: 10px;
+    margin: 15px;
+    padding-bottom: 180px;
 }
 
 .portfolio-section {
@@ -311,4 +284,44 @@
     padding: 20px;
     box-shadow: inset;
 
+}
+
+.footer-background {
+    background-color: #0F0F0E;
+}
+
+.footer-pfp {
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+}
+
+.footer-sub-heading {
+    color: #FF2800;
+    font-size: 20px;
+    font-family: "nohemi";
+}
+
+.footer-text {
+    color: #fbfbfb;
+    font-size: 14px;
+    font-family: "google-sans";
+    margin-top: 3px;
+}
+
+.footer-end {
+    background-color: #020202;
+    font-family: 'google-sans';
+}
+
+.footer-icon {
+    font-size: 25px;
+    color: #fbfbfb;
+}
+
+.footer-text2 {
+    color: #FF2800;
+    font-size: 14px;
+    font-family: "google-sans";
+    margin-top: 10px;
 }
